@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.currency-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.logo-and-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.usd-and-euro-values {
+  display: flex;
+  flex-direction: row;
+}
+.usd-value {
+  font-family: roboto;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-left: 50px;
+}
+.item-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
